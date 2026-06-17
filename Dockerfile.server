@@ -17,6 +17,7 @@ COPY panda_data_hub/ /app/panda_data_hub/
 COPY panda_factor/ /app/panda_factor/
 COPY panda_factor_server/ /app/panda_factor_server/
 COPY panda_llm/ /app/panda_llm/
+COPY panda_web/ /app/panda_web/
 COPY requirements.txt /app/
 
 # Python 3.12 slim may not include setuptools by default.

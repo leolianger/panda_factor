@@ -45,7 +45,7 @@ jobs:
           images: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/panda_factor
           tags: |
             type=raw,value=latest
-            type=sha,format=long
+            type=raw,value=20260617
             type=ref,event=branch
 
       - name: Build and push
